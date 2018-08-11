@@ -3,7 +3,7 @@ import Link from "gatsby-link"
 import get from "lodash/get"
 import Helmet from "react-helmet"
 
-class Blog extends React.Component {
+class Collaborate extends React.Component {
   constructor() {
     super();
   }
@@ -11,10 +11,10 @@ class Blog extends React.Component {
   render() {
     return (
       <div>
-        <h1>Blog Page</h1>
+        <h1>Collaborate Page</h1>
       </div>
     )
   }
 }
 
-export default Blog
+export default Collaborate
