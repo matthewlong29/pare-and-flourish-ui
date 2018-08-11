@@ -1,25 +1,26 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
-import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
-import './styles.scss';
-import config from '../../meta/config';
+import React from "react"
+import Link from "gatsby-link"
+import "../assets/scss/main.scss"
 
-const TemplateWrapper = ({children}) => (
-  <div>
-    <Helmet>
-      <title>{config.siteTitle}</title>
-      <meta name = 'description' content = {config.siteDescription} />
-    </Helmet>
-    <NavBar />
-    <div>{children()}</div>
-    <Footer />
-  </div>
-);
+import Header from "../components/Header"
+import Footer from "../components/Footer"
 
-TemplateWrapper.propTypes = {
-  children: PropTypes.func,
-};
+class Template extends React.Component {
+  render() {
+    const { children } = this.props
 
-export default TemplateWrapper;
+    return (
+      <div>
+        <Header />
+        {children()}
+        <Footer />
+      </div>
+    )
+  }
+}
+
+Template.propTypes = {
+  children: React.PropTypes.func
+}
+
+export default Template
