@@ -1,10 +1,27 @@
-# [Pare and Flourish](http://www.pareandflourish.com) Source Code 
-Pare and Flourish. A personal and professional growth blog dedicated to living an authentic lifestyle. Ready to take a realistic approach to self-improvement? Flourish with us! Majority of the content is written by Skylar Wooden and Katie Butler. Design and development by Matthew Long. 
+# PareAndFlourish
 
-## COPYRIGHT 
-Pare and Flourish, 2017. Unauthorized use and/or duplication of this material without express and written permission from this site’s author and/or owner is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to Pare and Flourish with appropriate and specific direction to the original content. All content is created and maintained by Pare and Flourish unless otherwise indicated. All images are from Unsplash.com unless otherwise indicated. 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.3.
 
-Please note that this source code has not been "themed" and credit must be given for any use of it.  
+## Development server
 
-## Social Media 
-You can get in contact with Pare and Flourish through [Twitter](https://twitter.com/pareandflourish/), [Facebook](https://www.facebook.com/pareandflourish/), or [Instagram](https://www.instagram.com/pareandflourish/).
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

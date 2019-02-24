@@ -1,42 +1,48 @@
 {
-  "name": "gatsby-starter-strata",
-  "description": "Gatsby Starter - Strata by HTML5 UP",
-  "version": "1.0.0",
-  "author": "Hunter Chang",
-  "dependencies": {
-    "gatsby": "^1.9.235",
-    "gatsby-image": "^1.0.42",
-    "gatsby-link": "^1.6.39",
-    "gatsby-plugin-google-analytics": "^1.0.24",
-    "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-sass": "^1.0.23",
-    "gatsby-plugin-sharp": "^1.6.41",
-    "gatsby-remark-copy-linked-files": "^1.5.30",
-    "gatsby-remark-external-links": "0.0.4",
-    "gatsby-remark-images": "^1.5.56",
-    "gatsby-source-filesystem": "^1.5.27",
-    "gatsby-transformer-remark": "^1.7.37",
-    "gatsby-transformer-sharp": "^1.6.22",
-    "lodash": "^4.17.4",
-    "normalize.css": "^8.0.0",
-    "react-images": "^0.5.14"
-  },
-  "homepage": "https://github.com/ChangoMan/gatsby-starter-strata",
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ChangoMan/gatsby-starter-strata.git"
-  },
+  "name": "pare-and-flourish",
+  "version": "0.0.0",
   "scripts": {
-    "dev": "gatsby develop",
-    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "develop": "gatsby develop",
-    "build": "gatsby build",
-    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~7.2.0",
+    "@angular/common": "~7.2.0",
+    "@angular/compiler": "~7.2.0",
+    "@angular/core": "~7.2.0",
+    "@angular/forms": "~7.2.0",
+    "@angular/platform-browser": "~7.2.0",
+    "@angular/platform-browser-dynamic": "~7.2.0",
+    "@angular/router": "~7.2.0",
+    "core-js": "^2.5.4",
+    "rxjs": "~6.3.3",
+    "tslib": "^1.9.0",
+    "zone.js": "~0.8.26"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.12.0",
+    "@angular/cli": "~7.2.3",
+    "@angular/compiler-cli": "~7.2.0",
+    "@angular/language-service": "~7.2.0",
+    "@types/node": "~8.9.4",
+    "@types/jasmine": "~2.8.8",
+    "@types/jasminewd2": "~2.0.3",
+    "codelyzer": "~4.5.0",
+    "jasmine-core": "~2.99.1",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~3.1.1",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-coverage-istanbul-reporter": "~2.0.1",
+    "karma-jasmine": "~1.1.2",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "protractor": "~5.4.0",
+    "ts-node": "~7.0.0",
+    "tslint": "~5.11.0",
+    "typescript": "~3.2.2"
   }
 }
