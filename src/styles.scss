@@ -1,0 +1,7 @@
+@import './variables';
+@import './placeholders';
+
+body {
+  margin: 0;
+  font-family: $bodyFont, sans-serif; // set everything to open-sans
+}
