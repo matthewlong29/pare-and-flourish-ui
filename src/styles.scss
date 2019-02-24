@@ -1,7 +1,23 @@
-@import './variables';
-@import './placeholders';
+@import "./variables";
+@import "./placeholders";
 
 body {
   margin: 0;
   font-family: $bodyFont, sans-serif; // set everything to open-sans
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $titleFont;
+}
+
+a,
+p,
+span {
+  font-family: $bodyFont;
 }
