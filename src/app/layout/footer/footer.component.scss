@@ -1,0 +1,72 @@
+@import "../../../placeholders";
+@import "../../../variables";
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  section {
+    &.colophon {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: $purpleGradient;
+      height: 66px;
+      padding: 0 1rem;
+      a {
+        @extend %common-text-link;
+      }
+    }
+    &.footer-primary {
+      @extend %container;
+      display: flex;
+      justify-content: space-around;
+      .sitemap,
+      .support,
+      .contact {
+        padding: 1rem;
+        h3 {
+          border-bottom: 2px solid $purple;
+          text-align: center;
+        }
+      }
+      .sitemap {
+        width: 25%;
+        ul {
+          columns: 2;
+          padding: 0;
+          li {
+            list-style: none;
+            text-align: center;
+            cursor: pointer;
+            a {
+              @extend %common-text-link;
+            }
+          }
+        }
+      }
+      .support {
+        width: 50%;
+        span {
+          display: block;
+          text-align: center;
+        }
+        app-button {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+      .contact {
+        width: 25%;
+        span {
+          display: block;
+          text-align: center;
+          a.email {
+            @extend %common-text-link;
+          }
+        }
+      }
+    }
+  }
+}
