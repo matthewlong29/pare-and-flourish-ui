@@ -13,6 +13,7 @@ import { RoundtablesComponent } from './pages/roundtables/roundtables.component'
 import { AmreadingComponent } from './pages/amreading/amreading.component';
 import { ArticleComponent } from './pages/article/article.component';
 import { FooterComponent } from './layout/footer/footer.component';
+import { SidePanelComponent } from './layout/side-panel/side-panel.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FooterComponent } from './layout/footer/footer.component';
     RoundtablesComponent,
     AmreadingComponent,
     ArticleComponent,
-    FooterComponent
+    FooterComponent,
+    SidePanelComponent
   ],
   imports: [
     BrowserModule,
