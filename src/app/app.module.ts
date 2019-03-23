@@ -12,6 +12,8 @@ import { EventsComponent } from './pages/events/events.component';
 import { RoundtablesComponent } from './pages/roundtables/roundtables.component';
 import { AmreadingComponent } from './pages/amreading/amreading.component';
 import { ArticleComponent } from './pages/article/article.component';
+import { FooterComponent } from './layout/footer/footer.component';
+import { SidePanelComponent } from './layout/side-panel/side-panel.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ArticleComponent } from './pages/article/article.component';
     EventsComponent,
     RoundtablesComponent,
     AmreadingComponent,
-    ArticleComponent
+    ArticleComponent,
+    FooterComponent,
+    SidePanelComponent
   ],
   imports: [
     BrowserModule,
