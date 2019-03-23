@@ -1,29 +1,30 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
+  <div>
+    <TopNav></TopNav>
+    <HeaderImage></HeaderImage>
+    <BottomNav></BottomNav>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+<script>
+import TopNav from "@/components/TopNav";
+import HeaderImage from "@/components/HeaderImage";
+import BottomNav from "@/components/BottomNav";
+
+export default {
+  name: "App",
+  components: {
+    BottomNav,
+    HeaderImage,
+    TopNav
   }
+};
+</script>
+
+
+<style lang="scss">
+body {
+  margin: 0;
+  min-height: 2000px;
 }
 </style>
